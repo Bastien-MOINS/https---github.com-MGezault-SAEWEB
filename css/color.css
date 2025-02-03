@@ -1,0 +1,10 @@
+header{
+    background-color: #031B49;
+
+}
+header li a{
+    color: #FFFFFF;
+}
+header li{
+    list-style-type: none;
+}
