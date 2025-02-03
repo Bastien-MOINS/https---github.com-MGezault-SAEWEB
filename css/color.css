@@ -1,10 +1,65 @@
 header{
     background-color: #031B49;
-
+    background: radial-gradient(circle at 100%, #031B49 50%, #5F4B8B);
 }
 header li a{
-    color: #FFFFFF;
+    color: #000000;
 }
 header li{
     list-style-type: none;
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    border-radius: 5%;
+}
+
+@font-face {
+    font-family: "Metropolis-Bold"; /* Nom de la police que tu choisis */
+    src: url("../font/metropolis-chris-simpson/Fonts/Webfonts/WOFF2/Metropolis-Bold.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Metropolis-Normal";
+    src: url("../font/metropolis-chris-simpson/Fonts/Webfonts/WOFF2/Metropolis-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Metropolis-SemiBold";
+    src: url("../font/metropolis-chris-simpson/Fonts/Webfonts/WOFF2/Metropolis-SemiBold.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+h1, a, h2{
+    font-family: "Metropolis-Bold";
+}
+div p, footer p, input{
+    font-family: "Metropolis-Normal";
+}
+section > p{
+    font-family: "Metropolis-SemiBold";
+}
+.intro{
+    border:2px solid #000000;
+    border-radius: 5%;
+}
+img{
+    border-radius: 5%;
+}
+article{
+    border:2px solid black;
+    border-radius: 5%;
+    box-shadow: 4px 3px 2px 1px gray;
+}
+input{
+    color: whitesmoke;
+    background: #031B49;
+}
+input:hover{
+    transform: translate(0.2px,0.2px);
+    background: #5F4B8B;
+}
+input:active{
+    transform: translate(1px,1px);
+    background: #5F4B8B;
 }
