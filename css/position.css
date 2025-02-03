@@ -36,3 +36,57 @@ main > h1{
     margin-bottom: 5%;
     text-align: center;
 }
+
+
+.metiers{
+    margin: 5% 25%;
+}
+
+.metiers article{
+    margin: 10%;
+    padding: 20px;
+    text-align: center;
+}
+
+article img{
+    width: 80%;
+    height: 80%;
+}
+
+article input{
+    width: 50%;
+    height: 4vh;
+}
+
+
+
+footer{
+    height: 10vh;
+    width: 100%;
+    background-color: aqua;
+}
+
+footer div{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer > p{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+@keyframes come{
+    from{
+        transform: translate(0, 200%);
+    }
+    to{
+        transform: translate(0, 0);
+    }
+}
