@@ -94,3 +94,20 @@ footer a{
     color: #2eabff;
 }
 /* ------------- */
+
+
+
+article{
+    animation-name: scroll-anim;
+    animation-duration: 2s;
+    animation-timeline: scroll(y, root);
+}
+
+@keyframes scroll-anim {
+    from{
+        transform: translate(0, 100%);
+    }
+    to{
+        transform: translate(0, 0);
+    }
+}
