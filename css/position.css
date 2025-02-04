@@ -57,13 +57,14 @@ article input{
     width: 50%;
     height: 4vh;
 }
+/* ------------- */
 
 
 
+/* Footer */
 footer{
     height: 10vh;
     width: 100%;
-    background-color: aqua;
 }
 
 footer div{
