@@ -4,64 +4,88 @@
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: "Metropolis-Normal";
     src: url("../font/Metropolis-Regular.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: "Metropolis-SemiBold";
     src: url("../font//Metropolis-SemiBold.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
 }
+
+/* Header */
 header, footer{
     background-color: #031B49;
     background: radial-gradient(circle at 100%, #031B49 50%, #5F4B8B);
 }
+
 header li a{
     color: #000000;
 }
+
 header li{
     list-style-type: none;
     background-color: whitesmoke;
     border: 2px solid whitesmoke;
     border-radius: 5%;
 }
+/* ------------- */
+
+
 
 h1, a, h2{
     font-family: "Metropolis-Bold";
 }
+
 div p, footer p, input{
     font-family: "Metropolis-Normal";
 }
+
 section > p{
     font-family: "Metropolis-SemiBold";
 }
+
+
+/* Main */
 .intro{
     border:2px solid #000000;
 }
+
 img{
     border-radius: 5%;
 }
+
 article{
     border:2px solid black;
     border-radius: 5%;
     box-shadow: 4px 3px 2px 1px gray;
 }
+
 input{
     color: whitesmoke;
     background: #031B49;
 }
+
 input:hover{
     background: #5F4B8B;
 }
+
 input:active{
     transform: translate(1px,1px);
     background: #5F4B8B;
     box-shadow: inset 1px 1px 1px 1px #000000;
 }
+/* ------------- */
+
+
+
+/* Footer */
 footer{
     color: white;
 }
@@ -69,3 +93,4 @@ footer{
 footer a{
     color: #2eabff;
 }
+/* ------------- */
