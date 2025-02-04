@@ -1,0 +1,93 @@
+/* Header */
+
+header{
+    display: flex;
+    justify-content: start;
+    height: 10vh;
+    width: 100%;
+}
+
+header nav{
+    width: 100%;
+}
+
+header ul{
+    justify-content: space-around;
+    display: flex;
+    flex-grow: 0;
+    padding-top: 2vh;
+}
+
+/* ------------- */
+
+
+
+/* Main */
+
+main > h1{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.intro{
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+
+.metiers{
+    margin: 5% 25%;
+}
+
+.metiers article{
+    margin: 10%;
+    padding: 20px;
+    text-align: center;
+}
+
+article img{
+    width: 80%;
+    height: 80%;
+}
+
+article input{
+    width: 50%;
+    height: 4vh;
+}
+/* ------------- */
+
+
+
+/* Footer */
+footer{
+    height: 10vh;
+    width: 100%;
+}
+
+footer div{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer > p{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+@keyframes come{
+    from{
+        transform: translate(0, 200%);
+    }
+    to{
+        transform: translate(0, 0);
+    }
+}
