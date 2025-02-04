@@ -41,7 +41,6 @@ section > p{
 }
 .intro{
     border:2px solid #000000;
-    border-radius: 5%;
 }
 img{
     border-radius: 5%;
@@ -56,13 +55,17 @@ input{
     background: #031B49;
 }
 input:hover{
-    transform: translate(0.2px,0.2px);
     background: #5F4B8B;
 }
 input:active{
     transform: translate(1px,1px);
     background: #5F4B8B;
+    box-shadow: inset 1px 1px 1px 1px #000000;
 }
 footer{
     color: white;
+}
+
+footer a{
+    color: #2eabff;
 }
