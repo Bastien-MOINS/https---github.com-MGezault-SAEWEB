@@ -39,11 +39,15 @@ main > h1{
 
 
 .metiers{
-    margin: 5% 25%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5% 0%;
+    background-color: brown;
 }
 
 .metiers article{
-    margin: 10%;
+    width: 30%;
+    margin: 5%;
     padding: 20px;
     text-align: center;
 }
