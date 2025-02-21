@@ -76,7 +76,7 @@ img{
 
 article{
     border:2px solid black;
-    border-radius: 5%;
+    border-radius: 20px;
     box-shadow: 4px 3px 2px 1px gray;
 }
 
