@@ -1,1 +1,2 @@
-# SAEWEB
+Svp on doit rendre le site et faire une soutenance de 15min dans 2 jours, y'a quasi aucune page de prête(dcp on peut pas avancer sur la soutenance nn plus), faut faire seulement 2 css (un placement, un couleur) pour TOUTES les pages (j'ai fais un truc qui fonctionne sur ma branche si vous voulez). C'est qd mm une note de grp coef 40 :,) et qd vous faites vos pages oubliez pas de les passer dans le verificateur w3c c'est dans les consignes ca va nous couter des points betement sinon.
+merci la team 
