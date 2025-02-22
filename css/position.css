@@ -5,6 +5,7 @@ header{
     justify-content: start;
     height: 10vh;
     width: 100%;
+    margin-bottom: 5%;
 }
 
 header nav{
@@ -13,13 +14,24 @@ header nav{
 
 header table{
     width: 100%;
-    margin-top: 2vh;
+    margin-top: 1.6vh;
 }
 
-header td {
-    padding: 10px;
+header td{
+
     width: 20%;
     text-align: center;
+    height: 40px;
+}
+
+header a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+header a p{
+    transform: translate(0, 100%);
 }
 
 /* ------------- */
@@ -30,7 +42,6 @@ header td {
 
 main > h1{
     text-align: center;
-    margin-top: 5%;
 }
 
 .intro{
@@ -42,7 +53,7 @@ main > h1{
 }
 
 
-.metiers{
+.domaines{
     display: flex;
     flex-wrap: wrap;
     margin: 5% 0%;
@@ -50,7 +61,7 @@ main > h1{
     justify-content: center;
 }
 
-.metiers article{
+.domaines article{
     width: 30%;
     margin: 5%;
     padding: 20px;
@@ -66,6 +77,56 @@ article input{
     width: 50%;
     height: 4vh;
 }
+
+/* Main > Pages secondaires */
+#reseaux article{
+    margin-bottom: 2%;
+    padding: 1%;
+}
+
+#reseaux .metiers article:nth-child(odd){
+    margin-right: 10%;
+    margin-left: 2%;
+}
+
+#reseaux .metiers article:nth-child(even){
+    margin-right: 2%;
+    margin-left: 10%;
+}
+
+#reseaux article img{
+    width: 300px;
+    margin: 1%;
+}
+
+#reseaux .metiers article:nth-child(even) img{
+    float: right;
+}
+
+#reseaux .metiers article:nth-child(odd) img{
+    float: left;
+}
+
+#reseaux .articleFooter{
+    text-align: center;
+}
+
+#reseaux .metiers article > h2{
+    text-align: center;
+}
+
+#reseaux .metiers article:nth-child(odd) ul{
+    padding-left: 30%;
+}
+
+#reseaux .metiers article:nth-child(even) ul {
+    padding-left: 10%;
+}
+
+li{
+    margin: 10px;
+}
+
 /* ------------- */
 
 
