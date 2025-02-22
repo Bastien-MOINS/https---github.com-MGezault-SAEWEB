@@ -79,47 +79,47 @@ article input{
 }
 
 /* Main > Pages secondaires */
-#reseaux article{
+#page article{
     margin-bottom: 2%;
     padding: 1%;
 }
 
-#reseaux .metiers article:nth-child(odd){
+#page .metiers article:nth-child(odd){
     margin-right: 10%;
     margin-left: 2%;
 }
 
-#reseaux .metiers article:nth-child(even){
+#page .metiers article:nth-child(even){
     margin-right: 2%;
     margin-left: 10%;
 }
 
-#reseaux article img{
+#page article img{
     width: 300px;
     margin: 1%;
 }
 
-#reseaux .metiers article:nth-child(even) img{
+#page .metiers article:nth-child(even) img{
     float: right;
 }
 
-#reseaux .metiers article:nth-child(odd) img{
+#page .metiers article:nth-child(odd) img{
     float: left;
 }
 
-#reseaux .articleFooter{
+#page .articleFooter{
     text-align: center;
 }
 
-#reseaux .metiers article > h2{
+#page .metiers article > h2{
     text-align: center;
 }
 
-#reseaux .metiers article:nth-child(odd) ul{
+#page .metiers article:nth-child(odd) ul{
     padding-left: 30%;
 }
 
-#reseaux .metiers article:nth-child(even) ul {
+#page .metiers article:nth-child(even) ul {
     padding-left: 10%;
 }
 
