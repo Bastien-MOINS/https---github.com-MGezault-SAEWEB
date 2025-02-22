@@ -14,13 +14,24 @@ header nav{
 
 header table{
     width: 100%;
-    margin-top: 2vh;
+    margin-top: 1.6vh;
 }
 
-header td {
-    padding: 10px;
+header td{
+
     width: 20%;
     text-align: center;
+    height: 40px;
+}
+
+header a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+header a p{
+    transform: translate(0, 100%);
 }
 
 /* ------------- */
